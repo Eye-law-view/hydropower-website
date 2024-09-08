@@ -14,7 +14,9 @@ include 'slider.php';
 ?>
 
 <div class="container">
-
+<section id="about-us">  <!-- Assign id="about-us" -->
+        <?php include 'about-us.php'; ?>
+    </section>
     <div class="content-wrapper">
         
         <!-- Team Section -->
@@ -30,9 +32,7 @@ include 'slider.php';
     </div>
 
     <!-- About Us Section -->
-    <section id="about-us">  <!-- Assign id="about-us" -->
-        <?php include 'about-us.php'; ?>
-    </section>
+  
 <section class="contact-us>
     <?php include 'contact-us.php' ?>
 </section>
