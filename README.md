@@ -1,2 +1,0 @@
-# hydropower-project
-# hydropower-website

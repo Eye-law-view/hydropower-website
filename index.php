@@ -1,62 +1,42 @@
 <?php
 include 'jscss.php'; 
+?>
+
+</head>
+<body>
+<?php
 include 'topbar.php';
 include 'navbar.php';
+?>
+
+<?php
 include 'slider.php';
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hydropower Website</title>
-    <!-- <style>
-        /* Custom container styles */
-        .container-custom {
-            max-width: 1200px; /* Limit width for better readability */
-            margin: 0 auto; /* Center the content */
-            padding: 20px; /* Add some padding inside the container */
-        }
-
-        /* Additional styling for sections */
-        .section {
-            margin-bottom: 40px; /* Add space between sections */
-            padding: 20px; /* Inner padding for better spacing */
-            background-color: #f9f9f9; /* Slightly different background to separate sections visually */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-            border-radius: 8px; /* Rounded corners for a modern look */
-        }
-
-        .section h1 {
-            margin-bottom: 15px; /* Add space below the headings */
-            font-size: 2em; /* Increase heading size */
-        }
-
-        .section p {
-            line-height: 1.6; /* Better line height for readability */
-            font-size: 1.1em; /* Slightly larger text for readability */
-        }
-    </style> -->
-</head>
-<body>
-
 <div class="container">
+
     <div class="content-wrapper">
+        
         <!-- Team Section -->
-        <div class="team-section">
+        <div class="team-section" id="projects">  <!-- Assign id="projects" -->
             <?php include 'team.php';  // Include the team section ?>
+            <?php include 'projects.php'; ?>
         </div>
 
         <!-- News Section -->
-        <div class="news-section">
+        <div class="news-section" id="news">  <!-- Assign id="news" -->
             <?php include 'news.php';  // Include the news section ?>
         </div>
     </div>
+
+    <!-- About Us Section -->
+    <section id="about-us">  <!-- Assign id="about-us" -->
+        <?php include 'about-us.php'; ?>
+    </section>
+<section class="contact-us>
+    <?php include 'contact-us.php' ?>
+</section>
 </div>
-
-<?php include 'projects.php' ?>
-
-
 <?php
-include 'footer.php';?>
+include 'footer.php';
+?>

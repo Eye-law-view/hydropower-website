@@ -7,3 +7,14 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/swiper.js"></script>
     <script src="./js/bootstrap.js"></script>
+
+    <script>   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>

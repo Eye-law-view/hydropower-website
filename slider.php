@@ -23,6 +23,7 @@
 </div>
 
 <!-- Swiper JS -->
+<!-- Swiper JS -->
 <script src="swiper.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
@@ -37,5 +38,9 @@
       },
       slidesPerView: 1,
       spaceBetween: 0,
+      autoplay: {
+        delay: 10000, // 5000ms = 5 seconds
+        disableOnInteraction: false, // Continue autoplay even if user interacts with the slider
+      },
     });
 </script>

@@ -13,10 +13,16 @@
                 <li><a class="dropdown-item" href="#project3">Project 3</a></li>
             </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#reports">Reports</a></li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#projects">Reports</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#project1">ABCD</a></li>
+                <li><a class="dropdown-item" href="#project2">EFGH</a></li>
+                <li><a class="dropdown-item" href="#project3">IJKL</a></li>
+            </ul>
         <li class="nav-item"><a class="nav-link" href="#news">News & Events</a></li>
         <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact-us">Contact</a></li>
         <li class="nav-item ml-auto">
             <?php include 'onoff.php'; ?>
         </li>

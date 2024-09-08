@@ -1,33 +1,43 @@
-<!-- footer.php -->
-<footer style="background-color: #f1f1f1; padding: 10px 20px; border-top: 1px solid #ddd;">
+<footer style="background-color: #222; padding: 40px 20px; border-top: 1px solid #444;">
     <div style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 0 auto;">
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-bottom: 20px; width: 100%;">
+    <a href="index.php" style="color: #ccc; text-decoration: none; margin: 0 10px; font-size: 12px;">Home</a>
+    <a href="#about-us" style="color: #ccc; text-decoration: none; margin: 0 10px; font-size: 12px;">About Us</a>
+    <a href="#projects" style="color: #ccc; text-decoration: none; margin: 0 10px; font-size: 12px;">Projects</a>
+    <a href="#news" style="color: #ccc; text-decoration: none; margin: 0 10px; font-size: 12px;">News</a>
+</div>
+</div>
+        <!-- Main Footer Content with Flexbox -->
+        <div style="display: flex; justify-content: space-between; width: 100%; flex-wrap: wrap; text-align: left;">
+            
+            <!-- Contact Info Section -->
+            <div style="max-width: 45%; margin-bottom: 20px;">
+                <h3 style="font-size: 18px; color: #fff;">Contact Info</h3>
+                <p style="font-size: 12px; color: #ccc; line-height: 1.6;">
+                    Phone: +977-51-2100985-6<br>
+                    Fax: +977-51-2114359<br>
+                    Email: softminds@company-power.com
+                </p>
+            </div>
 
-        <!-- About Section -->
-        <div style="text-align: center; margin-bottom: 10px;">
-            <p style="margin: 0; font-size: 14px; color: #333;">
-                Hydropower Company is dedicated to providing sustainable and efficient energy solutions through innovative hydropower projects.
-            </p>
+            <!-- CEO Message Section -->
+            <div style="max-width: 45%; margin-bottom: 20px;">
+                <h3 style="font-size: 18px; color: #fff;">CEO Message</h3>
+                <p style="font-size: 12px; color: #ccc; line-height: 1.6;">
+                    Welcome to the page of Hydropower.<br>
+                    Softminds Hydropower Pvt. Ltd.
+                </p>
+                <a href="#" style="font-size: 12px; color: #1e90ff; text-decoration: underline;">Click here &gt;&gt;</a>
+            </div>
+
         </div>
 
-        <!-- Quick Links -->
-        <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-bottom: 10px;">
-            <a href="index.php" style="color: #333; text-decoration: none; margin: 0 10px; font-size: 14px;">Home</a>
-            <a href="about.php" style="color: #333; text-decoration: none; margin: 0 10px; font-size: 14px;">About Us</a>
-            <a href="projects.php" style="color: #333; text-decoration: none; margin: 0 10px; font-size: 14px;">Projects</a>
-            <a href="news.php" style="color: #333; text-decoration: none; margin: 0 10px; font-size: 14px;">News</a>
-            <a href="contact.php" style="color: #333; text-decoration: none; margin: 0 10px; font-size: 14px;">Contact</a>
+
+        <!-- Copyright Section -->
+        <div style="text-align: center; margin-top: 20px;">
+            <p style="margin: 0; font-size: 10px; color: #888;">&copy; <?php echo date('Y'); ?> Hydropower Company. All rights reserved.</p>
         </div>
 
-        <!-- Social Media Links -->
-        <div style="text-align: center;">
-            <a href="https://facebook.com/hydropower" style="color: #333; text-decoration: none; margin: 0 10px; font-size: 14px;">Facebook</a>
-            <a href="https://twitter.com/hydropower" style="color: #333; text-decoration: none; margin: 0 10px; font-size: 14px;">Twitter</a>
-            <a href="https://linkedin.com/company/hydropower" style="color: #333; text-decoration: none; margin: 0 10px; font-size: 14px;">LinkedIn</a>
-        </div>
-
-        <!-- Copyright Information -->
-        <div style="text-align: center; margin-top: 10px;">
-            <p style="margin: 0; font-size: 12px; color: #666;">&copy; <?php echo date('Y'); ?> Hydropower Company. All rights reserved.</p>
-        </div>
     </div>
 </footer>
+    
