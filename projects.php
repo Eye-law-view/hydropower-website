@@ -1,4 +1,6 @@
-<!-- projects.php -->
+<?php 
+include 'jscss.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +19,7 @@
             <h2>Running Projects</h2>
             <div class="projects-wrapper">
                 <div class="project">
-                    <div class="project-photo">
+                   <div class="project-photo">
                         <img src="./images/thumb2.jpg" alt="Charnawati Hydropower 3.52 MW">
                     </div>
                     <div class="project-info">

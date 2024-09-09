@@ -9,14 +9,14 @@
 </head>
 <body>
 <div class="container">
-    <h1 class="text-center">Project Shareholders</h1>
+    <h1 class="text-center">Shareholders</h1>
     <div class="team-container">
         <!-- CEO Card -->
         <div class="card">
-            <img src="./images/photo1.jpeg" class="card-img-top" alt="CEO">
+            <img src="./images/kulman.webp" class="card-img-top" alt="CEO">
             <div class="card-body">
-                <h5 class="card-title">John Doe</h5>
-                <p class="card-text">Chief Executive Officer (CEO)</p>
+                <h5 class="card-title">Kulman Ghising</h5>
+                <p class="card-text">Managing Director (NEA)</p>
             </div>
         </div>
 
@@ -24,7 +24,7 @@
             <img src="./images/photo1.jpeg" class="card-img-top" alt="CEO">
             <div class="card-body">
                 <h5 class="card-title">John Doe</h5>
-                <p class="card-text">Chief Executive Officer (CEO)</p>
+                <p class="card-text">Chief Executive Officer<br>(Foreign Investor)</p>
             </div>
         </div>
 
@@ -36,7 +36,7 @@
             <img src="./images/photo3.webp" class="card-img-top" alt="Engineer">
             <div class="card-body">
                 <h5 class="card-title">Michael Lee</h5>
-                <p class="card-text">Lead Engineer</p>
+                <p class="card-text">Lead Engineer</br>(Foreign Investor)</p>
             </div>
         </div>
 

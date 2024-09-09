@@ -3,9 +3,7 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <img src="./images/1.jpg" alt="Hydropower Image 1">
-
-        </div>
-        <div class="swiper-slide">
+        </div>        <div class="swiper-slide">
             <img src="./images/2.jpg" alt="Hydropower Image 2">
         </div>
         <div class="swiper-slide">

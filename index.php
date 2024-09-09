@@ -37,6 +37,8 @@ include 'slider.php';
     <?php include 'contact-us.php' ?>
 </section>
 </div>
+
 <?php
 include 'footer.php';
 ?>
+
