@@ -4,9 +4,9 @@ include 'jscss.php';
 
 </head>
 <body>
+    
 <?php
-include 'topbar.php';
-include 'navbar.php';
+include 'header.php';
 ?>
 
 <?php

@@ -7,85 +7,8 @@
     <title>Hydropower Projects</title>
     <link rel="stylesheet" href="styles.css"> <!-- Ensure your styles are linked -->
     <style>
-        /* Inline CSS */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .projects {
-            margin: 0;
-        }
-
-        .projects h2 {
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 24px;
-            color: #333;
-        }
-
-        .projects-wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 20px; /* Space between projects */
-        }
-
-        .project {
-            flex: 1;
-            min-width: 300px; /* Minimum width to ensure responsiveness */
-            max-width: 45%; /* Adjust width as needed */
-            display: flex;
-            flex-direction: column;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .project-photo {
-            height: 200px;
-            width: 100%;
-            overflow: hidden;
-        }
-
-        .project-photo img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover; /* Ensures image covers the container */
-            display: block;
-        }
-
-        .project-info {
-            padding: 15px;
-        }
-
-        .project-info h3 {
-            margin: 0 0 10px;
-            font-size: 20px;
-            color: #333;
-        }
-
-        .project-info p {
-            margin-bottom: 10px;
-            font-size: 14px;
-            color: #666;
-        }
-
-        .project-details {
-            font-size: 14px;
-            color: #555;
-        }
-
-        .project-details div {
-            margin-bottom: 5px;
-        }
-
-        .project-details strong {
-            color: #333;
-        }
+     
+        
     </style>
 </head>
 <body>
@@ -95,7 +18,7 @@
             <div class="projects-wrapper">
                 <div class="project">
                     <div class="project-photo">
-                        <img src="./images/photo3.webp" alt="Charnawati Hydropower 3.52 MW">
+                        <img src="./images/thumb2.jpg" alt="Charnawati Hydropower 3.52 MW">
                     </div>
                     <div class="project-info">
                         <h3>Charnawati Hydropower 3.52 MW</h3>
@@ -112,7 +35,7 @@
 
                 <div class="project">
                     <div class="project-photo">
-                        <img src="./images/photo4.webp" alt="Lower Charnawati Project 6.8 MW">
+                        <img src="./images/thumb.jpeg" alt="Lower Charnawati Project 6.8 MW">
                     </div>
                     <div class="project-info">
                         <h3>Lower Charnawati Project 6.8 MW</h3>

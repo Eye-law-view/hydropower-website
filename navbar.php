@@ -1,9 +1,9 @@
 <nav class="navbar">
-    <a href="#home" class="navbar-brand">
+    <a href="" class="navbar-brand">
         <img src="./images/abc.png" alt="Logo" class="logo">
     </a>
     <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
         <li class="nav-item dropdown">
             <a class="nav-link" href="#projects">Projects</a>
