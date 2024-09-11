@@ -15,16 +15,19 @@
         <div class="card">
             <img src="./images/kulman.webp" class="card-img-top" alt="CEO">
             <div class="card-body">
-                <h5 class="card-title">Kulman Ghising</h5>
-                <p class="card-text">Managing Director (NEA)</p>
+                <h5 class="card-title">Mr. Basanta Kumar Tamang
+
+                </h5>
+                <p class="card-text">Managing Director</p>
             </div>
         </div>
 
         <div class="card">
             <img src="./images/photo1.jpeg" class="card-img-top" alt="CEO">
             <div class="card-body">
-                <h5 class="card-title">John Doe</h5>
-                <p class="card-text">Chief Executive Officer<br>(Foreign Investor)</p>
+                <h5 class="card-title">Mr.Tharendra Raj Poudel
+                </h5>
+                <p class="card-text">Director</p>
             </div>
         </div>
 

@@ -23,11 +23,11 @@ include 'jscss.php';
                         <img src="./images/thumb2.jpg" alt="Charnawati Hydropower 3.52 MW">
                     </div>
                     <div class="project-info">
-                        <h3>Charnawati Hydropower 3.52 MW</h3>
+                        <h3>Lower HewaKhola-A 6.9MW</h3>
                         <p>Charnawati Khola Hydroelctric Project at Bhimeswor Municipality of Dolkha district is developed by Nepal Hydro Developer Limited. It is a run of river type project in operation since June 2013.</p>
                         <div class="project-details">
-                            <div><strong>Project Type:</strong> RoR</div>
-                            <div><strong>Installed Capacity:</strong> 3.52 MW</div>
+                            <div><strong>Project Type:</strong> PROR</div>
+                            <div><strong>Installed Capacity:</strong> 6.9 MW</div>
                             <div><strong>Design Discharge:</strong> 2.19 m<sup>3</sup>/s</div>
                             <div><strong>Gross Head:</strong> 199 m</div>
                             <div><strong>Net Head:</strong> 191.99 m</div>

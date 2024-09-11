@@ -32,10 +32,7 @@ include 'slider.php';
     </div>
 
     <!-- About Us Section -->
-  
-<section class="contact-us>
-    <?php include 'contact-us.php' ?>
-</section>
+
 </div>
 
 <?php

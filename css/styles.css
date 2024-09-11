@@ -54,7 +54,7 @@ body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:#333;}
 .news-item h4{margin:0;font-size:1.2rem;color:#333;}
 .news-date{display:block;font-size:0.9rem;color:#888;margin-bottom:10px;}
 .news-item p{margin:0;color:#555;}
-.logo{height:40px;width:auto;display:block;margin-left:-250px;}
+.logo{height:80px;width:auto;display:block;margin-left:-200px;}
 .card-info{flex:1 1 90%;max-width:100%;border-radius:10px;overflow:hidden;display:flex;flex-direction:row;align-items:flex-start;text-align:left;margin:30px;}
 .card-info img{width:40%;height:auto;border-radius:10px;}
 .card-content-info{flex:1;padding-left:50px;}
@@ -96,3 +96,4 @@ h1.text-center{text-align:center;width:100%;margin-bottom:40px;}
 .about-text h2{text-align:left;}
 }
 
+ 

@@ -1,9 +1,38 @@
+<style>
+    /* Company name styling */
+.company-name {
+    font-weight: bold; /* Makes text bold */
+    display: flex;
+    font-size: 1.25rem; /* Adjusts font size to make it stand out */
+    color: #007bff; /* Change to your preferred color */
+    text-transform: uppercase; /* Makes text uppercase for emphasis */
+    margin-left: -120px; /* Space between company name and other nav items */
+}
+
+.company-name .nav-link {
+    text-decoration: none; /* Removes underline from link */
+    color: inherit; /* Inherits color from .company-name */
+    padding: 10px 15px; /* Adjust padding as needed */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.company-name .nav-link:hover {
+    color: #0056b3; /* Change to a darker shade for hover effect */
+    border-radius: 4px; /* Rounded corners for the hover effect */
+}
+
+</style>
+
 <nav class="navbar">
-    <a href="" class="navbar-brand">
-        <img src="./images/abc.png" alt="Logo" class="logo">
+    <a href="index.php" class="navbar-brand">
+        <img src="./images/logo.png" alt="Logo" class="logo">
     </a>
+    <span class="company-name">
+    <a class="nav-link" href="index.php">PANCHKHAPAN<br>Hydropower</a>
+</span>
+
     <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
         <li class="nav-item dropdown">
             <a class="nav-link" href="#about-us">About Us</a>
             <ul class="dropdown-menu">
@@ -38,7 +67,7 @@
             </ul>
         </li>
         <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact-us">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact</a></li>
         <li class="nav-item ml-auto">
             <?php include 'onoff.php'; ?>
         </li>

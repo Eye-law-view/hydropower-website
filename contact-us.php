@@ -1,3 +1,16 @@
+<link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bundle.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+<?php include 'topbar.php' ?>
+<?php include 'navbar.php' ?>
+<?php include 'jscss.php' ?>
+
+
 <div class="contact-section" id="contact-us" style="padding: 40px 0; background-color: #f9f9f9;">
     <div class="container" style="max-width: 900px; margin: 0 auto;">
 
